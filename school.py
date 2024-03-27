@@ -13,7 +13,7 @@ class Student:
         self.final = final
 
  def öğrenciBilgi(self):
-    return "{} {} isimli öğrencimiz {} da sinavlarina {} ve vize notu : {} final notu : {} şeklindedir.".format(
+    return "{} {} isimli öğrencimiz {} sinifinda sinavlarina {} ve vize notu : {} final notu : {} şeklindedir.".format(
         self.isim,
         self.soyAd,
         self.sinif,
